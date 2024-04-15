@@ -1,6 +1,6 @@
 # Project 3 - Data Visualization Track
 
-## Overview and Instructions
+## Outline
 
 ## Requirements:
 1. Your project must include visualizations. The visualizations can be created with:
