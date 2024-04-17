@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae7724766e19df14e0a66ac67ee3752e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ae7724766e19df14e0a66ac67ee3752e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ae7724766e19df14e0a66ac67ee3752e = L.map(
+                "map_ae7724766e19df14e0a66ac67ee3752e",
+                {
+                    center: [47.297293333333336, -91.35262222222221],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d47c39c2a4cf7b54f51647f4fdd212e1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d47c39c2a4cf7b54f51647f4fdd212e1.addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var marker_a4bb7e3a31fb3db400341d4eae78f763 = L.marker(
+                [49.05, -122.3167],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_39d8442245df0d620c74dd0ff8b88933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4bb7e3a31fb3db400341d4eae78f763.setIcon(icon_39d8442245df0d620c74dd0ff8b88933);
+        
+    
+        var popup_90d7b70326d7ba1186e80ff772b70309 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d6db197e3498fb1706dac521fda2e29 = $(`<div id="html_1d6db197e3498fb1706dac521fda2e29" style="width: 100.0%; height: 100.0%;">City: Abbotsford Average Price: $1,337,250.60</div>`)[0];
+                popup_90d7b70326d7ba1186e80ff772b70309.setContent(html_1d6db197e3498fb1706dac521fda2e29);
+            
+        
+
+        marker_a4bb7e3a31fb3db400341d4eae78f763.bindPopup(popup_90d7b70326d7ba1186e80ff772b70309)
+        ;
+
+        
+    
+    
+            var marker_0540d63032a0d23f3c8c62d60dd13f66 = L.marker(
+                [51.2917, -114.0144],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_00b99c8c794d6909900b2e00c3691326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0540d63032a0d23f3c8c62d60dd13f66.setIcon(icon_00b99c8c794d6909900b2e00c3691326);
+        
+    
+        var popup_d688fccb72d8640327e44774bcc88613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ea11903f6cd95e65c471e73a69bd8d4 = $(`<div id="html_9ea11903f6cd95e65c471e73a69bd8d4" style="width: 100.0%; height: 100.0%;">City: Airdrie Average Price: $735,905.37</div>`)[0];
+                popup_d688fccb72d8640327e44774bcc88613.setContent(html_9ea11903f6cd95e65c471e73a69bd8d4);
+            
+        
+
+        marker_0540d63032a0d23f3c8c62d60dd13f66.bindPopup(popup_d688fccb72d8640327e44774bcc88613)
+        ;
+
+        
+    
+    
+            var marker_ec60b3be3178b51bdd2b03962e023f72 = L.marker(
+                [44.3711, -79.6769],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_de5469f00bc68656d6fa784114b62c5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec60b3be3178b51bdd2b03962e023f72.setIcon(icon_de5469f00bc68656d6fa784114b62c5e);
+        
+    
+        var popup_68f0718b5569d9ab983d9c6d196daafe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b49c1c5488f853ea71e56f34ee3484e3 = $(`<div id="html_b49c1c5488f853ea71e56f34ee3484e3" style="width: 100.0%; height: 100.0%;">City: Barrie Average Price: $1,048,262.80</div>`)[0];
+                popup_68f0718b5569d9ab983d9c6d196daafe.setContent(html_b49c1c5488f853ea71e56f34ee3484e3);
+            
+        
+
+        marker_ec60b3be3178b51bdd2b03962e023f72.bindPopup(popup_68f0718b5569d9ab983d9c6d196daafe)
+        ;
+
+        
+    
+    
+            var marker_959a383515be9c4d08f2225f10727bcf = L.marker(
+                [43.1667, -80.25],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_9a2a511d704d73cd8098694641b9b747 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_959a383515be9c4d08f2225f10727bcf.setIcon(icon_9a2a511d704d73cd8098694641b9b747);
+        
+    
+        var popup_672c2786da0979726eb166faaea77c76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c00559c2fd353654e946da2a433fc1d = $(`<div id="html_4c00559c2fd353654e946da2a433fc1d" style="width: 100.0%; height: 100.0%;">City: Brantford Average Price: $955,923.39</div>`)[0];
+                popup_672c2786da0979726eb166faaea77c76.setContent(html_4c00559c2fd353654e946da2a433fc1d);
+            
+        
+
+        marker_959a383515be9c4d08f2225f10727bcf.bindPopup(popup_672c2786da0979726eb166faaea77c76)
+        ;
+
+        
+    
+    
+            var marker_542b674e26a466762c2f59355514cda3 = L.marker(
+                [49.2667, -122.9667],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_c18bbdcf43d607c54e4b08f1d43bb298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_542b674e26a466762c2f59355514cda3.setIcon(icon_c18bbdcf43d607c54e4b08f1d43bb298);
+        
+    
+        var popup_cc60b914787dceb5fe6fa571477a2eeb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df381d27bd2d2f888a575ec7b26240c1 = $(`<div id="html_df381d27bd2d2f888a575ec7b26240c1" style="width: 100.0%; height: 100.0%;">City: Burnaby Average Price: $1,329,514.22</div>`)[0];
+                popup_cc60b914787dceb5fe6fa571477a2eeb.setContent(html_df381d27bd2d2f888a575ec7b26240c1);
+            
+        
+
+        marker_542b674e26a466762c2f59355514cda3.bindPopup(popup_cc60b914787dceb5fe6fa571477a2eeb)
+        ;
+
+        
+    
+    
+            var marker_ebcd4e7df7ef374da836f73f0b09aaa3 = L.marker(
+                [43.8667, -79.8667],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_8c18a1af7f12c356efb85de3ad2bc061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ebcd4e7df7ef374da836f73f0b09aaa3.setIcon(icon_8c18a1af7f12c356efb85de3ad2bc061);
+        
+    
+        var popup_48a3728f8b0c735eec33250c25c9b0eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4863fe3bdc883ce2af1617c33a7abfd7 = $(`<div id="html_4863fe3bdc883ce2af1617c33a7abfd7" style="width: 100.0%; height: 100.0%;">City: Caledon Average Price: $1,383,365.90</div>`)[0];
+                popup_48a3728f8b0c735eec33250c25c9b0eb.setContent(html_4863fe3bdc883ce2af1617c33a7abfd7);
+            
+        
+
+        marker_ebcd4e7df7ef374da836f73f0b09aaa3.bindPopup(popup_48a3728f8b0c735eec33250c25c9b0eb)
+        ;
+
+        
+    
+    
+            var marker_1c08cee6dd3c08d438c1442771049110 = L.marker(
+                [51.04999999999999, -114.06669999999998],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_fd48a2a791f176ff02211c91599f15af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c08cee6dd3c08d438c1442771049110.setIcon(icon_fd48a2a791f176ff02211c91599f15af);
+        
+    
+        var popup_89eba554f205f2fbb6dfd3400c22862b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d149f78eb316b00e62ae894e84794e = $(`<div id="html_c8d149f78eb316b00e62ae894e84794e" style="width: 100.0%; height: 100.0%;">City: Calgary Average Price: $660,046.36</div>`)[0];
+                popup_89eba554f205f2fbb6dfd3400c22862b.setContent(html_c8d149f78eb316b00e62ae894e84794e);
+            
+        
+
+        marker_1c08cee6dd3c08d438c1442771049110.bindPopup(popup_89eba554f205f2fbb6dfd3400c22862b)
+        ;
+
+        
+    
+    
+            var marker_705cae88bc573ef57bc6de0bd6934819 = L.marker(
+                [53.53439999999999, -113.4903],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_8d36802860e3c1615deee78fdc4f47d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_705cae88bc573ef57bc6de0bd6934819.setIcon(icon_8d36802860e3c1615deee78fdc4f47d7);
+        
+    
+        var popup_3d4bedb5d96c608d02246bdd8dd681d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5872ab016bf804880dee61d605345d = $(`<div id="html_5f5872ab016bf804880dee61d605345d" style="width: 100.0%; height: 100.0%;">City: Edmonton Average Price: $425,582.01</div>`)[0];
+                popup_3d4bedb5d96c608d02246bdd8dd681d0.setContent(html_5f5872ab016bf804880dee61d605345d);
+            
+        
+
+        marker_705cae88bc573ef57bc6de0bd6934819.bindPopup(popup_3d4bedb5d96c608d02246bdd8dd681d0)
+        ;
+
+        
+    
+    
+            var marker_f73776b3a7914322a4c6da52027ea2a6 = L.marker(
+                [43.55, -80.25],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_53b8274d235457cc189ab66c480ab6c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f73776b3a7914322a4c6da52027ea2a6.setIcon(icon_53b8274d235457cc189ab66c480ab6c4);
+        
+    
+        var popup_b7eadafa70483375de11d3c36ab194d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d71bd0fbb65e0b563c23a7bf2a698bfe = $(`<div id="html_d71bd0fbb65e0b563c23a7bf2a698bfe" style="width: 100.0%; height: 100.0%;">City: Guelph Average Price: $1,064,623.15</div>`)[0];
+                popup_b7eadafa70483375de11d3c36ab194d5.setContent(html_d71bd0fbb65e0b563c23a7bf2a698bfe);
+            
+        
+
+        marker_f73776b3a7914322a4c6da52027ea2a6.bindPopup(popup_b7eadafa70483375de11d3c36ab194d5)
+        ;
+
+        
+    
+    
+            var marker_491ab254b14a5bf4cebc84a6d2efc363 = L.marker(
+                [44.8857, 63.1005],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_5e3a8acf83bcbbcfece163b4a21987fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_491ab254b14a5bf4cebc84a6d2efc363.setIcon(icon_5e3a8acf83bcbbcfece163b4a21987fb);
+        
+    
+        var popup_579e94f2f682729c318e60d26f647ffc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aac6a1efb37a1ef58c6548a291a9b88a = $(`<div id="html_aac6a1efb37a1ef58c6548a291a9b88a" style="width: 100.0%; height: 100.0%;">City: Halifax Average Price: $794,771.09</div>`)[0];
+                popup_579e94f2f682729c318e60d26f647ffc.setContent(html_aac6a1efb37a1ef58c6548a291a9b88a);
+            
+        
+
+        marker_491ab254b14a5bf4cebc84a6d2efc363.bindPopup(popup_579e94f2f682729c318e60d26f647ffc)
+        ;
+
+        
+    
+    
+            var marker_da7a71964113c8733b683c6a9be66a34 = L.marker(
+                [43.2567, -79.8692],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_da1bdcfa3b390ace9adde5b7160224e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da7a71964113c8733b683c6a9be66a34.setIcon(icon_da1bdcfa3b390ace9adde5b7160224e6);
+        
+    
+        var popup_583efb7893413c9f1c7b3fbdd5661b1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bd39b299125aa4e88b9b8e5ccd93863 = $(`<div id="html_4bd39b299125aa4e88b9b8e5ccd93863" style="width: 100.0%; height: 100.0%;">City: Hamilton Average Price: $975,543.00</div>`)[0];
+                popup_583efb7893413c9f1c7b3fbdd5661b1e.setContent(html_4bd39b299125aa4e88b9b8e5ccd93863);
+            
+        
+
+        marker_da7a71964113c8733b683c6a9be66a34.bindPopup(popup_583efb7893413c9f1c7b3fbdd5661b1e)
+        ;
+
+        
+    
+    
+            var marker_ae44043184c1e29a7d19d9687bccf048 = L.marker(
+                [50.6761, -120.3408],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_47d21389ed02d05e45a896db3a722998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae44043184c1e29a7d19d9687bccf048.setIcon(icon_47d21389ed02d05e45a896db3a722998);
+        
+    
+        var popup_3220f378c3a1aa801bdc4c2a4cbce036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e2895a1ddd587f950aeaa0b521fec35 = $(`<div id="html_9e2895a1ddd587f950aeaa0b521fec35" style="width: 100.0%; height: 100.0%;">City: Kamloops Average Price: $748,536.07</div>`)[0];
+                popup_3220f378c3a1aa801bdc4c2a4cbce036.setContent(html_9e2895a1ddd587f950aeaa0b521fec35);
+            
+        
+
+        marker_ae44043184c1e29a7d19d9687bccf048.bindPopup(popup_3220f378c3a1aa801bdc4c2a4cbce036)
+        ;
+
+        
+    
+    
+            var marker_fdc1a8ad8ab0ae5656c4c21b17848520 = L.marker(
+                [49.8881, -119.4956],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_bb1e65b6531b3ff8d6209f89b1be9468 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fdc1a8ad8ab0ae5656c4c21b17848520.setIcon(icon_bb1e65b6531b3ff8d6209f89b1be9468);
+        
+    
+        var popup_a8668cb169da0d4c7318e76587ed2b58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c8c0a783275382971a356d5a13ede82 = $(`<div id="html_8c8c0a783275382971a356d5a13ede82" style="width: 100.0%; height: 100.0%;">City: Kelowna Average Price: $1,037,283.02</div>`)[0];
+                popup_a8668cb169da0d4c7318e76587ed2b58.setContent(html_8c8c0a783275382971a356d5a13ede82);
+            
+        
+
+        marker_fdc1a8ad8ab0ae5656c4c21b17848520.bindPopup(popup_a8668cb169da0d4c7318e76587ed2b58)
+        ;
+
+        
+    
+    
+            var marker_bd221147619b61dd18091fa0bff1dac8 = L.marker(
+                [44.2313, -76.481],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_4cffc799f4dcaea9279248116f5e6880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd221147619b61dd18091fa0bff1dac8.setIcon(icon_4cffc799f4dcaea9279248116f5e6880);
+        
+    
+        var popup_320d5e9fbf28714c0eecb7599d38372e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59a5f4bff7e0f43ba1e6f61cb2c2cb7d = $(`<div id="html_59a5f4bff7e0f43ba1e6f61cb2c2cb7d" style="width: 100.0%; height: 100.0%;">City: Kingston Average Price: $769,607.31</div>`)[0];
+                popup_320d5e9fbf28714c0eecb7599d38372e.setContent(html_59a5f4bff7e0f43ba1e6f61cb2c2cb7d);
+            
+        
+
+        marker_bd221147619b61dd18091fa0bff1dac8.bindPopup(popup_320d5e9fbf28714c0eecb7599d38372e)
+        ;
+
+        
+    
+    
+            var marker_da6b46a92379ba39710f64527365423e = L.marker(
+                [43.4186, -80.4728],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_de5e46e6fd1e2c89d0369dba2638ee38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_da6b46a92379ba39710f64527365423e.setIcon(icon_de5e46e6fd1e2c89d0369dba2638ee38);
+        
+    
+        var popup_10eea2464a4ad9cb3816b2891d1c0386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4b02b16f9b571442b16d91136d1e2c8 = $(`<div id="html_e4b02b16f9b571442b16d91136d1e2c8" style="width: 100.0%; height: 100.0%;">City: Kitchener Average Price: $923,526.61</div>`)[0];
+                popup_10eea2464a4ad9cb3816b2891d1c0386.setContent(html_e4b02b16f9b571442b16d91136d1e2c8);
+            
+        
+
+        marker_da6b46a92379ba39710f64527365423e.bindPopup(popup_10eea2464a4ad9cb3816b2891d1c0386)
+        ;
+
+        
+    
+    
+            var marker_8bc4fa33fd823f32adc0a88a6caa6ff3 = L.marker(
+                [49.6942, -112.8328],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_1e5af0cb59e38ff09c7d981ddc3c7150 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bc4fa33fd823f32adc0a88a6caa6ff3.setIcon(icon_1e5af0cb59e38ff09c7d981ddc3c7150);
+        
+    
+        var popup_49238591f84a095fd67a13ec169c9995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad5982133153a6f725198ea714b47ff = $(`<div id="html_cad5982133153a6f725198ea714b47ff" style="width: 100.0%; height: 100.0%;">City: Lethbridge Average Price: $443,627.02</div>`)[0];
+                popup_49238591f84a095fd67a13ec169c9995.setContent(html_cad5982133153a6f725198ea714b47ff);
+            
+        
+
+        marker_8bc4fa33fd823f32adc0a88a6caa6ff3.bindPopup(popup_49238591f84a095fd67a13ec169c9995)
+        ;
+
+        
+    
+    
+            var marker_bf1c79204199158e61084688711df31a = L.marker(
+                [42.9836, -81.2497],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_2d0cfd5590c3bbfadc339ed169d4066d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf1c79204199158e61084688711df31a.setIcon(icon_2d0cfd5590c3bbfadc339ed169d4066d);
+        
+    
+        var popup_8157fc5341753f99a5448cd6ebac6a94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29d05f0a4a08c56f46f244d70f5c5830 = $(`<div id="html_29d05f0a4a08c56f46f244d70f5c5830" style="width: 100.0%; height: 100.0%;">City: London Average Price: $797,627.10</div>`)[0];
+                popup_8157fc5341753f99a5448cd6ebac6a94.setContent(html_29d05f0a4a08c56f46f244d70f5c5830);
+            
+        
+
+        marker_bf1c79204199158e61084688711df31a.bindPopup(popup_8157fc5341753f99a5448cd6ebac6a94)
+        ;
+
+        
+    
+    
+            var marker_7de4c9989635ce5fc27a7f89104d33d5 = L.marker(
+                [49.2167, -122.59999999999998],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_c63b36bd1cb5c3af4ff98b8450978849 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7de4c9989635ce5fc27a7f89104d33d5.setIcon(icon_c63b36bd1cb5c3af4ff98b8450978849);
+        
+    
+        var popup_8e64c68e61d50ecf0a4f4865c91fd953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea19f98d4ec51190d3501e2c39b3b4c4 = $(`<div id="html_ea19f98d4ec51190d3501e2c39b3b4c4" style="width: 100.0%; height: 100.0%;">City: Maple Ridge Average Price: $1,497,012.49</div>`)[0];
+                popup_8e64c68e61d50ecf0a4f4865c91fd953.setContent(html_ea19f98d4ec51190d3501e2c39b3b4c4);
+            
+        
+
+        marker_7de4c9989635ce5fc27a7f89104d33d5.bindPopup(popup_8e64c68e61d50ecf0a4f4865c91fd953)
+        ;
+
+        
+    
+    
+            var marker_2a72962f287a826c13e428122e0c2233 = L.marker(
+                [50.0417, -110.6775],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_b05f86ef5e71ec481f733c05ee7fe944 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a72962f287a826c13e428122e0c2233.setIcon(icon_b05f86ef5e71ec481f733c05ee7fe944);
+        
+    
+        var popup_922b6b9dee5055a2052b218287592ca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77d02470f9680f78169d86fb8447c51 = $(`<div id="html_f77d02470f9680f78169d86fb8447c51" style="width: 100.0%; height: 100.0%;">City: Medicine Hat Average Price: $448,137.49</div>`)[0];
+                popup_922b6b9dee5055a2052b218287592ca9.setContent(html_f77d02470f9680f78169d86fb8447c51);
+            
+        
+
+        marker_2a72962f287a826c13e428122e0c2233.bindPopup(popup_922b6b9dee5055a2052b218287592ca9)
+        ;
+
+        
+    
+    
+            var marker_cd4d41fae4730c5e62146c2bc2c7c868 = L.marker(
+                [46.1328, -64.7714],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_128e6fc15acbdef85f2aaf491e299a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd4d41fae4730c5e62146c2bc2c7c868.setIcon(icon_128e6fc15acbdef85f2aaf491e299a36);
+        
+    
+        var popup_fb02bbfdb89674493f789efa8aacbdad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3235512bafdda1d3b06ec759e1f1797f = $(`<div id="html_3235512bafdda1d3b06ec759e1f1797f" style="width: 100.0%; height: 100.0%;">City: Moncton Average Price: $437,985.80</div>`)[0];
+                popup_fb02bbfdb89674493f789efa8aacbdad.setContent(html_3235512bafdda1d3b06ec759e1f1797f);
+            
+        
+
+        marker_cd4d41fae4730c5e62146c2bc2c7c868.bindPopup(popup_fb02bbfdb89674493f789efa8aacbdad)
+        ;
+
+        
+    
+    
+            var marker_00c4f86117f6d3c9b029daac4504bb3b = L.marker(
+                [45.508900000000004, -73.5617],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_bcab5e0d2e1537fb8b5720c6df10fde0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00c4f86117f6d3c9b029daac4504bb3b.setIcon(icon_bcab5e0d2e1537fb8b5720c6df10fde0);
+        
+    
+        var popup_e6cd92df767bac8a3fdca0bf7e825995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7bb7996f83d7d6182e8c280d4a3baeb = $(`<div id="html_e7bb7996f83d7d6182e8c280d4a3baeb" style="width: 100.0%; height: 100.0%;">City: Montreal Average Price: $931,392.29</div>`)[0];
+                popup_e6cd92df767bac8a3fdca0bf7e825995.setContent(html_e7bb7996f83d7d6182e8c280d4a3baeb);
+            
+        
+
+        marker_00c4f86117f6d3c9b029daac4504bb3b.bindPopup(popup_e6cd92df767bac8a3fdca0bf7e825995)
+        ;
+
+        
+    
+    
+            var marker_7ee3395ea7fb91de14c8ee8af34a0e4f = L.marker(
+                [49.1642, -123.93640000000002],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_de01954b513f63d27ebdfe4d65a5bbef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ee3395ea7fb91de14c8ee8af34a0e4f.setIcon(icon_de01954b513f63d27ebdfe4d65a5bbef);
+        
+    
+        var popup_bf1fac2f7599525811fe3832890a2471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a6d91a96a75f3a761b9c28ea52abfe = $(`<div id="html_36a6d91a96a75f3a761b9c28ea52abfe" style="width: 100.0%; height: 100.0%;">City: Nanaimo Average Price: $866,077.60</div>`)[0];
+                popup_bf1fac2f7599525811fe3832890a2471.setContent(html_36a6d91a96a75f3a761b9c28ea52abfe);
+            
+        
+
+        marker_7ee3395ea7fb91de14c8ee8af34a0e4f.bindPopup(popup_bf1fac2f7599525811fe3832890a2471)
+        ;
+
+        
+    
+    
+            var marker_b47493cceecce2807a2d16c46d0d42e9 = L.marker(
+                [49.2069, -122.91110000000002],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_d2879fca6b07bb04ac00d057bb931f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b47493cceecce2807a2d16c46d0d42e9.setIcon(icon_d2879fca6b07bb04ac00d057bb931f30);
+        
+    
+        var popup_6f48a5a7d728e5b476a6fc7064269184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51d50a1d4a6a367d89c89cf3b879c9d9 = $(`<div id="html_51d50a1d4a6a367d89c89cf3b879c9d9" style="width: 100.0%; height: 100.0%;">City: New Westminster Average Price: $1,183,541.83</div>`)[0];
+                popup_6f48a5a7d728e5b476a6fc7064269184.setContent(html_51d50a1d4a6a367d89c89cf3b879c9d9);
+            
+        
+
+        marker_b47493cceecce2807a2d16c46d0d42e9.bindPopup(popup_6f48a5a7d728e5b476a6fc7064269184)
+        ;
+
+        
+    
+    
+            var marker_19b824355435a09297677133be950205 = L.marker(
+                [43.9, -78.85],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_d4616fed619fa49d2b8556098c940f81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19b824355435a09297677133be950205.setIcon(icon_d4616fed619fa49d2b8556098c940f81);
+        
+    
+        var popup_92b10b800571593a05e57cd7f66a3480 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76e490aa8193ac7704337c295189cecf = $(`<div id="html_76e490aa8193ac7704337c295189cecf" style="width: 100.0%; height: 100.0%;">City: Oshawa Average Price: $989,062.19</div>`)[0];
+                popup_92b10b800571593a05e57cd7f66a3480.setContent(html_76e490aa8193ac7704337c295189cecf);
+            
+        
+
+        marker_19b824355435a09297677133be950205.bindPopup(popup_92b10b800571593a05e57cd7f66a3480)
+        ;
+
+        
+    
+    
+            var marker_71724159b958486b978307fc25a035a0 = L.marker(
+                [45.4247, -75.695],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_c2db17f41b56487cdce088396f2ae144 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71724159b958486b978307fc25a035a0.setIcon(icon_c2db17f41b56487cdce088396f2ae144);
+        
+    
+        var popup_63ab841481d56d17515b3c1db2d690c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f2115971896b38ce78aa46e6a5cebc6 = $(`<div id="html_2f2115971896b38ce78aa46e6a5cebc6" style="width: 100.0%; height: 100.0%;">City: Ottawa Average Price: $783,759.20</div>`)[0];
+                popup_63ab841481d56d17515b3c1db2d690c6.setContent(html_2f2115971896b38ce78aa46e6a5cebc6);
+            
+        
+
+        marker_71724159b958486b978307fc25a035a0.bindPopup(popup_63ab841481d56d17515b3c1db2d690c6)
+        ;
+
+        
+    
+    
+            var marker_ccdcd95ee3131728faa7f12f7a2c4a0f = L.marker(
+                [44.3, -78.3167],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_57a1b7f310d8304a2896434081cb5ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ccdcd95ee3131728faa7f12f7a2c4a0f.setIcon(icon_57a1b7f310d8304a2896434081cb5ec6);
+        
+    
+        var popup_4aa9ebac16bba05793cf26bfea3b412a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_053a484a345d164fa45149dbafeac0e9 = $(`<div id="html_053a484a345d164fa45149dbafeac0e9" style="width: 100.0%; height: 100.0%;">City: Peterborough Average Price: $798,827.19</div>`)[0];
+                popup_4aa9ebac16bba05793cf26bfea3b412a.setContent(html_053a484a345d164fa45149dbafeac0e9);
+            
+        
+
+        marker_ccdcd95ee3131728faa7f12f7a2c4a0f.bindPopup(popup_4aa9ebac16bba05793cf26bfea3b412a)
+        ;
+
+        
+    
+    
+            var marker_49af97557ea447304c6f29179819b684 = L.marker(
+                [53.916900000000005, -122.7494],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_4261432e44bd228ef5bcec3503f418a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49af97557ea447304c6f29179819b684.setIcon(icon_4261432e44bd228ef5bcec3503f418a2);
+        
+    
+        var popup_cda0024c2b75d72f1a8223856781d4b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b15fd700534a86dac99d2e48bd297c24 = $(`<div id="html_b15fd700534a86dac99d2e48bd297c24" style="width: 100.0%; height: 100.0%;">City: Prince George Average Price: $528,889.83</div>`)[0];
+                popup_cda0024c2b75d72f1a8223856781d4b1.setContent(html_b15fd700534a86dac99d2e48bd297c24);
+            
+        
+
+        marker_49af97557ea447304c6f29179819b684.bindPopup(popup_cda0024c2b75d72f1a8223856781d4b1)
+        ;
+
+        
+    
+    
+            var marker_379b53404e39f22f6fb8ddb2ef1e8fe2 = L.marker(
+                [46.813900000000004, -71.2081],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_ec79bf5154a9979fa5fb86136fc354c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_379b53404e39f22f6fb8ddb2ef1e8fe2.setIcon(icon_ec79bf5154a9979fa5fb86136fc354c0);
+        
+    
+        var popup_ce23af2df2695a353985539ef45b0da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36ac68fd2691086ec033d7a6b1d297b8 = $(`<div id="html_36ac68fd2691086ec033d7a6b1d297b8" style="width: 100.0%; height: 100.0%;">City: Quebec Average Price: $437,915.95</div>`)[0];
+                popup_ce23af2df2695a353985539ef45b0da2.setContent(html_36ac68fd2691086ec033d7a6b1d297b8);
+            
+        
+
+        marker_379b53404e39f22f6fb8ddb2ef1e8fe2.bindPopup(popup_ce23af2df2695a353985539ef45b0da2)
+        ;
+
+        
+    
+    
+            var marker_996b31789160ceaf11ef20bdb79ffcae = L.marker(
+                [52.26809999999999, -113.8111],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_8f60961a46bff076c2784564f168c4c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_996b31789160ceaf11ef20bdb79ffcae.setIcon(icon_8f60961a46bff076c2784564f168c4c4);
+        
+    
+        var popup_fe6d6f81876149cc45c7261078e2bc36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dc120824dc667aa0ea84fecca5540ed = $(`<div id="html_5dc120824dc667aa0ea84fecca5540ed" style="width: 100.0%; height: 100.0%;">City: Red Deer Average Price: $485,932.18</div>`)[0];
+                popup_fe6d6f81876149cc45c7261078e2bc36.setContent(html_5dc120824dc667aa0ea84fecca5540ed);
+            
+        
+
+        marker_996b31789160ceaf11ef20bdb79ffcae.bindPopup(popup_fe6d6f81876149cc45c7261078e2bc36)
+        ;
+
+        
+    
+    
+            var marker_3f011520f25adbe4a7c3456b15ece994 = L.marker(
+                [50.4547, -104.6067],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_b85ae55de9bd0b3471edc619c10b9cf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f011520f25adbe4a7c3456b15ece994.setIcon(icon_b85ae55de9bd0b3471edc619c10b9cf8);
+        
+    
+        var popup_78408bea29731a5a72ad379158cd9f87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c818874ec875f1f18c6778336c3d2aa = $(`<div id="html_6c818874ec875f1f18c6778336c3d2aa" style="width: 100.0%; height: 100.0%;">City: Regina Average Price: $337,922.03</div>`)[0];
+                popup_78408bea29731a5a72ad379158cd9f87.setContent(html_6c818874ec875f1f18c6778336c3d2aa);
+            
+        
+
+        marker_3f011520f25adbe4a7c3456b15ece994.bindPopup(popup_78408bea29731a5a72ad379158cd9f87)
+        ;
+
+        
+    
+    
+            var marker_45faf892c81c69fd0e5d2838bbb4b45c = L.marker(
+                [45.2806, -66.0761],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_7f0f6dbd7043b4009ea6ecb80c629a1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_45faf892c81c69fd0e5d2838bbb4b45c.setIcon(icon_7f0f6dbd7043b4009ea6ecb80c629a1e);
+        
+    
+        var popup_d0a018a6ede084a2448a341944a919f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de6ee8ffa15708f4bd85c34dfbaf2a70 = $(`<div id="html_de6ee8ffa15708f4bd85c34dfbaf2a70" style="width: 100.0%; height: 100.0%;">City: Saint John Average Price: $395,167.24</div>`)[0];
+                popup_d0a018a6ede084a2448a341944a919f5.setContent(html_de6ee8ffa15708f4bd85c34dfbaf2a70);
+            
+        
+
+        marker_45faf892c81c69fd0e5d2838bbb4b45c.bindPopup(popup_d0a018a6ede084a2448a341944a919f5)
+        ;
+
+        
+    
+    
+            var marker_aea65eb6e5e00f2a51fdd6e6dc3702db = L.marker(
+                [52.1333, -106.6833],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_4b6c72d98d1a7ea424b1a117f94c32e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aea65eb6e5e00f2a51fdd6e6dc3702db.setIcon(icon_4b6c72d98d1a7ea424b1a117f94c32e0);
+        
+    
+        var popup_5297fad3f64a463c1b8cbea6dcbf4da7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee7675c8b9f1df9b910443bf7849f401 = $(`<div id="html_ee7675c8b9f1df9b910443bf7849f401" style="width: 100.0%; height: 100.0%;">City: Saskatoon Average Price: $470,776.38</div>`)[0];
+                popup_5297fad3f64a463c1b8cbea6dcbf4da7.setContent(html_ee7675c8b9f1df9b910443bf7849f401);
+            
+        
+
+        marker_aea65eb6e5e00f2a51fdd6e6dc3702db.bindPopup(popup_5297fad3f64a463c1b8cbea6dcbf4da7)
+        ;
+
+        
+    
+    
+            var marker_bd381d46572dc9d100254e6c5b3dd414 = L.marker(
+                [46.5333, -84.35],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_79119884e4811b43df063d6b081be0a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd381d46572dc9d100254e6c5b3dd414.setIcon(icon_79119884e4811b43df063d6b081be0a0);
+        
+    
+        var popup_7dc6a204a875b247f714f364fb3f93a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e53d573e3ea0926b40bf68aa79077ae = $(`<div id="html_7e53d573e3ea0926b40bf68aa79077ae" style="width: 100.0%; height: 100.0%;">City: Sault Ste. Marie Average Price: $425,135.68</div>`)[0];
+                popup_7dc6a204a875b247f714f364fb3f93a1.setContent(html_7e53d573e3ea0926b40bf68aa79077ae);
+            
+        
+
+        marker_bd381d46572dc9d100254e6c5b3dd414.bindPopup(popup_7dc6a204a875b247f714f364fb3f93a1)
+        ;
+
+        
+    
+    
+            var marker_1b78a5447d9778fa7a40dd64f7a6d22f = L.marker(
+                [45.4, -71.9],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_d37bc863aff896a5d81269eb9da18266 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b78a5447d9778fa7a40dd64f7a6d22f.setIcon(icon_d37bc863aff896a5d81269eb9da18266);
+        
+    
+        var popup_3135afb3aec36176f9ab08f1fafed80a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44317747425e9bcdc12ebc37dfc2a080 = $(`<div id="html_44317747425e9bcdc12ebc37dfc2a080" style="width: 100.0%; height: 100.0%;">City: Sherbrooke Average Price: $513,548.85</div>`)[0];
+                popup_3135afb3aec36176f9ab08f1fafed80a.setContent(html_44317747425e9bcdc12ebc37dfc2a080);
+            
+        
+
+        marker_1b78a5447d9778fa7a40dd64f7a6d22f.bindPopup(popup_3135afb3aec36176f9ab08f1fafed80a)
+        ;
+
+        
+    
+    
+            var marker_b63fc2539a1ce2401cfccc9735d8f39f = L.marker(
+                [43.1833, -79.2333],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_9419866acce804b2a26c1b7d71cdf68a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b63fc2539a1ce2401cfccc9735d8f39f.setIcon(icon_9419866acce804b2a26c1b7d71cdf68a);
+        
+    
+        var popup_1ecb5b41bcbe1f75d2a4e568fda1e312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22d9e9d93a379d1821cd57ad82f52545 = $(`<div id="html_22d9e9d93a379d1821cd57ad82f52545" style="width: 100.0%; height: 100.0%;">City: St. Catharines Average Price: $883,022.33</div>`)[0];
+                popup_1ecb5b41bcbe1f75d2a4e568fda1e312.setContent(html_22d9e9d93a379d1821cd57ad82f52545);
+            
+        
+
+        marker_b63fc2539a1ce2401cfccc9735d8f39f.bindPopup(popup_1ecb5b41bcbe1f75d2a4e568fda1e312)
+        ;
+
+        
+    
+    
+            var marker_6090c85b79a10a6dc196e8b60aa97f81 = L.marker(
+                [47.4817, -52.79709999999999],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_9e107c2f5cd463992d218696c4f0a614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6090c85b79a10a6dc196e8b60aa97f81.setIcon(icon_9e107c2f5cd463992d218696c4f0a614);
+        
+    
+        var popup_bf2e9e29366d9177a954d79d787f8147 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7508402cd9f11f28000bab87646f62d = $(`<div id="html_f7508402cd9f11f28000bab87646f62d" style="width: 100.0%; height: 100.0%;">City: St. John's Average Price: $438,037.17</div>`)[0];
+                popup_bf2e9e29366d9177a954d79d787f8147.setContent(html_f7508402cd9f11f28000bab87646f62d);
+            
+        
+
+        marker_6090c85b79a10a6dc196e8b60aa97f81.bindPopup(popup_bf2e9e29366d9177a954d79d787f8147)
+        ;
+
+        
+    
+    
+            var marker_fd61eecef3bf0a342e6110acb922e981 = L.marker(
+                [46.49000000000001, -81.01],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_99dece1bb3c2fdeca51903d991828ca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd61eecef3bf0a342e6110acb922e981.setIcon(icon_99dece1bb3c2fdeca51903d991828ca8);
+        
+    
+        var popup_de88c6fffd93bfac649f972cd3e90bd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0d78222787892f19e5f4c3c16a01694 = $(`<div id="html_d0d78222787892f19e5f4c3c16a01694" style="width: 100.0%; height: 100.0%;">City: Sudbury Average Price: $596,087.39</div>`)[0];
+                popup_de88c6fffd93bfac649f972cd3e90bd4.setContent(html_d0d78222787892f19e5f4c3c16a01694);
+            
+        
+
+        marker_fd61eecef3bf0a342e6110acb922e981.bindPopup(popup_de88c6fffd93bfac649f972cd3e90bd4)
+        ;
+
+        
+    
+    
+            var marker_01eb18804ac4a4c19b33529dba978a0d = L.marker(
+                [48.3822, -89.2461],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_75b3221765f0ee14f134fd19fb0a26d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01eb18804ac4a4c19b33529dba978a0d.setIcon(icon_75b3221765f0ee14f134fd19fb0a26d0);
+        
+    
+        var popup_89c810d7f99c737a5bf391ad59d8ed6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38f448f40067db06a337f880e7d59678 = $(`<div id="html_38f448f40067db06a337f880e7d59678" style="width: 100.0%; height: 100.0%;">City: Thunder Bay Average Price: $459,703.25</div>`)[0];
+                popup_89c810d7f99c737a5bf391ad59d8ed6d.setContent(html_38f448f40067db06a337f880e7d59678);
+            
+        
+
+        marker_01eb18804ac4a4c19b33529dba978a0d.bindPopup(popup_89c810d7f99c737a5bf391ad59d8ed6d)
+        ;
+
+        
+    
+    
+            var marker_3c20c660b00be48e69f7d9dc7c8de79c = L.marker(
+                [43.7417, -79.3733],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_39861d241cea26a9a82e3f01ff199b42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c20c660b00be48e69f7d9dc7c8de79c.setIcon(icon_39861d241cea26a9a82e3f01ff199b42);
+        
+    
+        var popup_fe2daaf6c8dcc04ec7cd8919cc3e6ec6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c868fe62c213bbc84c62526c3c93065 = $(`<div id="html_7c868fe62c213bbc84c62526c3c93065" style="width: 100.0%; height: 100.0%;">City: Toronto Average Price: $1,235,288.77</div>`)[0];
+                popup_fe2daaf6c8dcc04ec7cd8919cc3e6ec6.setContent(html_7c868fe62c213bbc84c62526c3c93065);
+            
+        
+
+        marker_3c20c660b00be48e69f7d9dc7c8de79c.bindPopup(popup_fe2daaf6c8dcc04ec7cd8919cc3e6ec6)
+        ;
+
+        
+    
+    
+            var marker_5ac0a21205ce7ab52bbda9a6b684eeef = L.marker(
+                [46.35, -72.55],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_18052c1db2b1716a0c95acaf1265787a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5ac0a21205ce7ab52bbda9a6b684eeef.setIcon(icon_18052c1db2b1716a0c95acaf1265787a);
+        
+    
+        var popup_8211720916a86f1b9eece1eaf752f5a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed4b302d0ec0b9835f792bc096e5182d = $(`<div id="html_ed4b302d0ec0b9835f792bc096e5182d" style="width: 100.0%; height: 100.0%;">City: Trois-Rivieres Average Price: $491,459.32</div>`)[0];
+                popup_8211720916a86f1b9eece1eaf752f5a4.setContent(html_ed4b302d0ec0b9835f792bc096e5182d);
+            
+        
+
+        marker_5ac0a21205ce7ab52bbda9a6b684eeef.bindPopup(popup_8211720916a86f1b9eece1eaf752f5a4)
+        ;
+
+        
+    
+    
+            var marker_ac926492c9f10cc5bca6f9e2822d2959 = L.marker(
+                [49.25, -123.1],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_940e877da1de5604237614c4d92d9339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac926492c9f10cc5bca6f9e2822d2959.setIcon(icon_940e877da1de5604237614c4d92d9339);
+        
+    
+        var popup_91ba7df84ca7b140fcc1dbeca249283e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cd84032e9d3bffb52d57409dcff0c76 = $(`<div id="html_5cd84032e9d3bffb52d57409dcff0c76" style="width: 100.0%; height: 100.0%;">City: Vancouver Average Price: $1,851,758.69</div>`)[0];
+                popup_91ba7df84ca7b140fcc1dbeca249283e.setContent(html_5cd84032e9d3bffb52d57409dcff0c76);
+            
+        
+
+        marker_ac926492c9f10cc5bca6f9e2822d2959.bindPopup(popup_91ba7df84ca7b140fcc1dbeca249283e)
+        ;
+
+        
+    
+    
+            var marker_d40fb94bcd2a91f50c4170f3b43bc06c = L.marker(
+                [48.4283, -123.3647],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_af4acfa4a58c6c3dc4a06e4ed16361f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d40fb94bcd2a91f50c4170f3b43bc06c.setIcon(icon_af4acfa4a58c6c3dc4a06e4ed16361f9);
+        
+    
+        var popup_baf1dbe0d9c3e81f0e0e8e43eff85070 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9494d9ba32cd3139a22409f72ea76f73 = $(`<div id="html_9494d9ba32cd3139a22409f72ea76f73" style="width: 100.0%; height: 100.0%;">City: Victoria Average Price: $1,193,434.24</div>`)[0];
+                popup_baf1dbe0d9c3e81f0e0e8e43eff85070.setContent(html_9494d9ba32cd3139a22409f72ea76f73);
+            
+        
+
+        marker_d40fb94bcd2a91f50c4170f3b43bc06c.bindPopup(popup_baf1dbe0d9c3e81f0e0e8e43eff85070)
+        ;
+
+        
+    
+    
+            var marker_82a41d7fd3c60c3420ecb240730e04fd = L.marker(
+                [49.025, -122.8028],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_54f3ab221e9de09b00d86c9e821e5f93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_82a41d7fd3c60c3420ecb240730e04fd.setIcon(icon_54f3ab221e9de09b00d86c9e821e5f93);
+        
+    
+        var popup_05568a92dd353fc23b006f4552fac41b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8b03b52d918d0e74e32f6ab6458f39 = $(`<div id="html_3f8b03b52d918d0e74e32f6ab6458f39" style="width: 100.0%; height: 100.0%;">City: White Rock Average Price: $2,220,779.64</div>`)[0];
+                popup_05568a92dd353fc23b006f4552fac41b.setContent(html_3f8b03b52d918d0e74e32f6ab6458f39);
+            
+        
+
+        marker_82a41d7fd3c60c3420ecb240730e04fd.bindPopup(popup_05568a92dd353fc23b006f4552fac41b)
+        ;
+
+        
+    
+    
+            var marker_29f5455b3471d499223c8c733fb140fd = L.marker(
+                [42.2833, -83.0],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_f326848dc43713b141d6cb06c6982205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29f5455b3471d499223c8c733fb140fd.setIcon(icon_f326848dc43713b141d6cb06c6982205);
+        
+    
+        var popup_41f3d058e8cfb5caaaf7f4e05088ae03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ebf88026e5ec5988dd3ecc0fadc0b55 = $(`<div id="html_8ebf88026e5ec5988dd3ecc0fadc0b55" style="width: 100.0%; height: 100.0%;">City: Windsor Average Price: $643,018.92</div>`)[0];
+                popup_41f3d058e8cfb5caaaf7f4e05088ae03.setContent(html_8ebf88026e5ec5988dd3ecc0fadc0b55);
+            
+        
+
+        marker_29f5455b3471d499223c8c733fb140fd.bindPopup(popup_41f3d058e8cfb5caaaf7f4e05088ae03)
+        ;
+
+        
+    
+    
+            var marker_cc70ebcaa50f7a580c3dd99f72708db9 = L.marker(
+                [49.8844, -97.1464],
+                {}
+            ).addTo(map_ae7724766e19df14e0a66ac67ee3752e);
+        
+    
+            var icon_93d00df70a3c4b2081ca8981162f02fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc70ebcaa50f7a580c3dd99f72708db9.setIcon(icon_93d00df70a3c4b2081ca8981162f02fe);
+        
+    
+        var popup_0832e86afff42c1ac323a3945fe5b751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feac84f4b84bce9528d46953a071959b = $(`<div id="html_feac84f4b84bce9528d46953a071959b" style="width: 100.0%; height: 100.0%;">City: Winnipeg Average Price: $499,155.20</div>`)[0];
+                popup_0832e86afff42c1ac323a3945fe5b751.setContent(html_feac84f4b84bce9528d46953a071959b);
+            
+        
+
+        marker_cc70ebcaa50f7a580c3dd99f72708db9.bindPopup(popup_0832e86afff42c1ac323a3945fe5b751)
+        ;
+
+        
+    
+</script>
+</html>
